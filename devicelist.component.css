@@ -1,0 +1,28 @@
+.devicelist__tableheader{
+        padding: 12px 12px 12px 30px;
+    background-color: grey;
+    margin-top: -20px;
+    border-top: 1px solid #99A3A4;
+    border-bottom: 1px solid #99A3A4;
+    border-right: 1px solid #99A3A4;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th, input {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.devicelist_tableheader--pos{
+    padding-left: 31px;
+}
+.devicelist__row{
+    cursor:pointer;
+}
+.devicelist__chkbox{
+    padding-left:2%;
+}

@@ -1,0 +1,51 @@
+<div class="row">
+  <table>
+  <tr class="devicelist__tableheader">
+    <td class="devicelist__chkbox"><input type="checkbox" />    &nbsp;   </td>
+    <th class="devicelist_tableheader--pos">DEVICE ID</th>
+    <th>DEVICE TYPE</th>
+    <th>ZONE</th>
+    <th>GROUP</th>
+  </tr>
+  <tr *ngFor="let item of devicelist;" class="devicelist__row" (click)="displayDeviceProp();setDevicesInfo($event, item);">
+    <td class="devicelist__chkbox"><input type="checkbox" />    &nbsp;   </td>
+    <td><i class="fa fa-volume-up" aria-hidden="true"></i> &nbsp;{{item.address}}</td>
+    <td>{{item.label}}</td>
+    <td>{{item.zone}}</td>
+    <td>{{item.group}}</td>
+  </tr>
+  <!--<tr class="devicelist__row" (click)="displayDeviceProp();setDevicesInfo($event);" *ngIf="devicelist">
+    <td class="devicelist__chkbox"><input type="checkbox" />    &nbsp;   </td>
+    <td><i class="fa fa-volume-up" aria-hidden="true"></i> &nbsp;{{devicelist.id}}</td>
+    <td>{{devicelist.type}}</td>
+    <td>{{devicelist.zone}}</td>
+    <td>{{devicelist.group}}</td>
+  </tr>
+  <tr class="devicelist__row" (click)="displayDeviceProp();setDevicesInfo($event);">
+    <td class="devicelist__chkbox"><input type="checkbox" />    &nbsp;   </td>
+    <td><i class="fa fa-volume-up" aria-hidden="true"></i> &nbsp;01.004</td>
+    <td> &nbsp;Heat Sensors</td>
+    <td> &nbsp;01</td>
+    <td> &nbsp;02</td>
+  </tr>
+  <tr (click)="displayDeviceProp();setDevicesInfo($event);">
+    <td class="devicelist__chkbox"><input type="checkbox" />    &nbsp;   </td>
+    <td><i class="fa fa-volume-up" aria-hidden="true"></i> &nbsp;01.002</td>
+    <td> &nbsp;Smoke Acclim</td>
+    <td> &nbsp;01</td>
+    <td> &nbsp;02</td>
+  </tr>
+  <tr (click)="displayDeviceProp();setDevicesInfo($event);">
+    <td class="devicelist__chkbox"><input type="checkbox" />    &nbsp;   </td>
+    <td><i class="fa fa-volume-up" aria-hidden="true"></i> &nbsp;01.003</td>
+    <td> &nbsp;Strobe</td>
+    <td> &nbsp;01</td>
+    <td> &nbsp;02</td>
+  </tr>-->
+</table>
+    
+</div>
+
+
+
+

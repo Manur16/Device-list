@@ -1,5 +1,5 @@
 {
-  "name": "fusion_devicelist",
+  "name": "fusion-devicelist",
   "version": "0.0.1",
   "description": "Device List component",
   "main": "devicelist.component.js",
